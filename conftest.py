@@ -2,7 +2,7 @@ import glob
 import six
 import pytest
 from twisted import version as twisted_version
-
+# king has the sword 
 
 def _py_files(folder):
     return glob.glob(folder + "/*.py") + glob.glob(folder + "/*/*.py")
